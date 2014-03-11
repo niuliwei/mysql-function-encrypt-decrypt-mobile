@@ -7,4 +7,5 @@ A function for mysql to encrypt or decrypt mobile number
 Quick Start
 =====================================
 
-You can configure your redis in redisConf.php and run the demo.php. Then in your console of redis server you'll find a key named 'test_key' with a '1' value. Have fun now!
+How to encrypt:   select mobile_en_de_crypt(13812345678,1);
+How to decrypt:   select mobile_en_de_crypt('138+JAQ5678',0);
